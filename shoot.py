@@ -17,8 +17,6 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
     def update(self):
         mouse_pos = pygame.mouse.get_pos()
-        player.rect.x = mouse_pos[0]
-        player.rect.y = mouse_pos[1]
-
-
-while
+        pass
+        #player.rect.x = mouse_pos[0]
+        #player.rect.y = mouse_pos[1]
